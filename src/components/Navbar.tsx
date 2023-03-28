@@ -23,7 +23,7 @@ function Navbar() {
                 </Drawer>
                 <img
                     onClick={() => setIsOpenDrawer(true)}
-                    className={"md:hidden absolute top-4 right-5"}
+                    className={"md:hidden absolute top-6 right-5 w-10"}
                     src={MenuIcon}
                  alt="MenuIcon"/>
                 <ul className={"hidden md:flex gap-6 items-center"}>
