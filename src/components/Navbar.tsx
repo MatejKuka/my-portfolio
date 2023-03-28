@@ -1,16 +1,17 @@
-import React, {useState} from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
+import {useState} from 'react';
+//import MenuIcon from '@mui/icons-material/Menu';
+// @ts-ignore
+import MenuIcon from "../assets/menu-icon.png"
 import {Drawer} from "@mui/material";
 // @ts-ignore
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function Navbar() {
-    const [isOpenDrawer, setIsOpenDrawer] = useState<boolean>();
+    const [isOpenDrawer, setIsOpenDrawer] = useState<boolean>(false);
 
     return (
-        <nav className={"flex w-full p-5 justify-between shadow-xl bg-white bg-white"}>
+        <nav className={"flex w-full p-5 justify-between shadow-xl bg-white"}>
             <h1 className={"text-5xl font-extrabold"}>Matej.</h1>
-            <div>
                 <Drawer
                     anchor={"top"}
                     open={isOpenDrawer}
@@ -20,11 +21,12 @@ function Navbar() {
                     <Link smooth={true} className={"link-navbar-drawer"} to="sectionSkills">Skills</Link>
                     <Link smooth={true} className={"link-navbar-drawer text-primary-color bg-secondary-color"} to="sectionContactMe">Contact</Link>
                 </Drawer>
-                <MenuIcon
+                <img
                     onClick={() => setIsOpenDrawer(true)}
-                    className={"md:hidden text-5xl"}
-                />
-                <ul className={"hidden md:flex gap-6"}>
+                    className={"md:hidden absolute top-4 right-5"}
+                    src={MenuIcon}
+                 alt="MenuIcon"/>
+                <ul className={"hidden md:flex gap-6 items-center"}>
                     <li>
                         <Link smooth={true} className={"link-navbar"} to="sectionLandingPage">Home</Link>
                     </li>
@@ -38,7 +40,6 @@ function Navbar() {
                         <Link smooth={true} className={"text-3xl hover:cursor-pointer font-bold bg-secondary-color hover:bg-cyan-900 text-primary-color p-2 rounded-lg"} to="sectionContactMe">Contact</Link>
                     </li>
                 </ul>
-            </div>
         </nav>
     );
 }
