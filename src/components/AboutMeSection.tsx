@@ -14,11 +14,12 @@ import MyPhoto from "../assets/myphoto-bg.png";
 import MyCVFile from "../assets/Matej_Kuka_ENCV.pdf"
 
 const ABOUT_ME_TEXT = [
-    "Let me introduce myself a little bit. I enjoy working in web development with people with the same proactive approach. I have a passion for start-ups or entrepreneurship generally. It is not just an obsession I have developed during my journey, but it is more the approach I have and can offer.",
-    "My education is in Computer science - software development, therefore, I have a lot of experience with software development.",
-    "In my leisure time, I listen to all kinds of podcasts (about technology, politics or philosophy for example), reading books or just exploring some local places. Last year, I decided to read 20 pages each day and at the end of the year, I read about 21 books. What a year...",
+    "My education is in Computer science - Software Development but I am a mostly self-taught developer with an entrepreneurial spirit. My proficiency is in web application development and full-stack development is my preferred choice. ",
+    //"It is not just an obsession I have developed during my journey, but it is more the approach I have and can offer.",
+    "I enjoy working in startup and innovation environments, as these are the settings where I thrive on.",
+    "In my leisure time, I listen to all kinds of podcasts (about technology, politics or philosophy for example), read books or just exploring some local places.",
+    "In 2021, I decided to read 20 pages each day and at the end of the year, I read about 21 books. What a year...",
     "Originally, I am from Slovakia and as you could notice, I have a weakness for art, especially for Ancient Greek statues.",
-    "How can I prove my qualities and my approach to you? Let´s make a project and see for yourself.",
 ]
 
 const CALL_TO_ACTION_TEXT = "If you want to know more about me or my experiences, you can download my CV, check my LinkedIn profile or contact me directly.";

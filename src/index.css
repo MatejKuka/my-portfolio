@@ -25,7 +25,7 @@
     }
 
     .button-aboutme-action {
-        @apply bg-secondary-color text-primary-color p-2 rounded-md text-2xl font-bold mx-auto w-[250px] block text-center hover:bg-cyan-600
+        @apply bg-secondary-color text-primary-color p-2 rounded-md text-2xl font-bold mx-auto w-[250px] block text-center hover:bg-cyan-600 hover:cursor-pointer
     }
 
     .title-section {
