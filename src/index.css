@@ -41,7 +41,7 @@
     }
 
     .label-contact-section {
-        @apply block text-4xl font-bold text-primary-color mt-3 mb-1
+        @apply block text-2xl sm:text-4xl font-bold text-primary-color mt-3 mb-1
     }
 }
 
@@ -68,7 +68,7 @@
     }
 
     .bg-cusom-gradient-small {
-        background-image: linear-gradient(110deg, #F8BB71 92vw, #245D7E 10vw);
+        background-image: linear-gradient(110deg, #F8BB71 94vw, #245D7E 10vw);
         background-color: #245D7E;
     }
 

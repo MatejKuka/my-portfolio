@@ -8,12 +8,12 @@ function ContactMeSection() {
     return (
         <div className={"bg-secondary-color"} id="sectionContactMe">
             <h1 className={"title-section pt-8"}> Contact form</h1>
-            <p className={"text-center font-bold text-2xl text-primary-color leading-loose"}>{CONTACT_FORM_DESC}
-                <span className={"bg-primary-color text-secondary-color p-2 rounded-xl"}>{MY_EMAIL_ADRESS}</span></p>
+            <p className={"text-center font-bold text-lg sm:text-2xl mx-2 text-primary-color"}>{CONTACT_FORM_DESC}
+                <span className={"bg-primary-color text-secondary-color text p-1 rounded-xl"}>{MY_EMAIL_ADRESS}</span></p>
             <form action="https://formsubmit.co/contact@matejkuka.com" method="POST">
                 <Grid container className={"max-w-[1200px] mx-auto pb-24"}>
-                    <Grid item md={6} className={"mx-auto p-10"}>
-                        <label className={"label-contact-section "}>Your name*</label>
+                    <Grid item md={6} className={"p-10 w-full"}>
+                        <label className={"label-contact-section mx-auto"}>Your name*</label>
                         <input className={"input-contact-section"}
                                type="text"
                                required/>
@@ -22,7 +22,7 @@ function ContactMeSection() {
                                type="email"
                                required/>
                     </Grid>
-                    <Grid item md={6} className={"p-10 mx-auto"}>
+                    <Grid item md={6} className={"p-10 w-full"}>
                         <label className={"label-contact-section"} htmlFor="">Message*</label>
                         <textarea
                             className={"input-contact-section max-h-[160px]"}

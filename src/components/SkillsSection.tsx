@@ -30,7 +30,7 @@ const MY_METHODOLOGIES_LIST = [
 
 function SkillsSection() {
     return (
-        <div id="sectionSkills" className={"max-w-[1300px] mx-auto"}>
+        <div id="sectionSkills" className={"max-w-[1300px] mx-auto p-2"}>
             <h1 className={"title-section"}>My technical skills</h1>
             <Grid container className={"mx-auto w-full text-center"}>
                 <Grid item md={6} className={"w-full"}>
