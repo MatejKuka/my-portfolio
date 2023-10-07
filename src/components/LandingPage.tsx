@@ -8,7 +8,7 @@ import GithubImage from "../assets/icons8-github-60.png";
 
 const MAIN_TEXT = "I’m Matej Kuka";
 const SECONDARY_TEXT = "Fullstack developer using his passion for innovation, start-ups and entrepreneurship";
-const TERCIARY_TEXT = "Currently based in Esbjerg, Denmark";
+const TERCIARY_TEXT = "Currently based in Copenhagen, Denmark";
 
 function LandingPage() {
     return (
@@ -31,7 +31,7 @@ function LandingPage() {
             <PopUpButton
                 className={"hover:bg-cyan-600 absolute top-[50%] md:top-20 right-4 rounded-xl"}
                 iconPath={GithubImage}
-                linkPath={"https://github.com/MatejKuka?tab=repositories"}/>
+                linkPath={"https://github.com/MatejKuka"}/>
         </div>
     );
 }
