@@ -8,7 +8,7 @@ function ContactMeSection() {
     return (
         <div className={"bg-secondary-color"} id="sectionContactMe">
             <h1 className={"title-section pt-8"}> Contact form</h1>
-            <p className={"text-center font-bold text-lg sm:text-2xl mx-2 text-primary-color"}>{CONTACT_FORM_DESC}
+            <p className={"text-center font-bold text-lg sm:text-xl mx-2 text-primary-color"}>{CONTACT_FORM_DESC}
                 <span className={"bg-primary-color text-secondary-color text p-1 rounded-xl"}>{MY_EMAIL_ADRESS}</span></p>
             <form action="https://formsubmit.co/contact@matejkuka.com" method="POST">
                 <Grid container className={"max-w-[1200px] mx-auto pb-24"}>
@@ -32,7 +32,7 @@ function ContactMeSection() {
                             required/>
                         <button
                             type="submit"
-                            className={"mt-4 bg-green-700 text-3xl font-bold text-white p-2 rounded-xl"}>Submit
+                            className={"mt-4 bg-green-700 text-2xl font-bold text-white p-2 rounded-xl"}>Submit
                         </button>
                     </Grid>
                 </Grid>

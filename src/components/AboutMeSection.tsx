@@ -48,7 +48,7 @@ function AboutMeSection() {
                     ))}
                 </Grid>
             </Grid>
-            <p className={"md:text-3xl text-2xl font-bold text-center my-8 max-w-[850px] mx-auto"}>{CALL_TO_ACTION_TEXT}</p>
+            <p className={"md:text-2xl text-xl font-bold text-center my-8 max-w-[850px] mx-auto"}>{CALL_TO_ACTION_TEXT}</p>
             <div className={"mx-auto max-w-[1300px]"}>
                 <Grid container spacing={2}>
                     <Grid item md={4}>
@@ -56,7 +56,7 @@ function AboutMeSection() {
                            href={MyCVFile}
                            target="_blank"
                            rel="noopener noreferrer">Download CV
-                            <img src={DownloadImage} className={"h-[45px] pl-1 inline"} alt={"df"}/>
+                            <img src={DownloadImage} className={"h-[40px] pl-1 inline"} alt={"df"}/>
                         </a>
                     </Grid>
                     <Grid item md={4}>
@@ -65,7 +65,7 @@ function AboutMeSection() {
                            target="_blank"
                            rel="noopener noreferrer">
                             LinkedIn
-                            <img src={LinkedInImage} className={"h-[45px] pl-1 inline"} alt={"ds"}/>
+                            <img src={LinkedInImage} className={"h-[40px] pl-1 inline"} alt={"ds"}/>
                         </a>
                     </Grid>
                     <Grid item md={4}>
@@ -74,7 +74,7 @@ function AboutMeSection() {
                             className={"button-aboutme-action"}
                             to="sectionContactMe">
                             Contact me
-                            <img src={MailImage} className={"h-[45px] pl-1 inline"} alt={"sdfaf"}/>
+                            <img src={MailImage} className={"h-[40px] pl-1 inline"} alt={"sdfaf"}/>
                         </Link>
                     </Grid>
                 </Grid>

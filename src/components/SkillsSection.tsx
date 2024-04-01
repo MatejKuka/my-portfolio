@@ -37,7 +37,7 @@ function SkillsSection() {
                     <h2 className={"title-skills-section"}>{MY_SKILLS_TITLE}:</h2>
                     <ul>
                         {MY_SKILLS_LIST.map(skill => (
-                            <li className={"md:text-3xl text-2xl py-1"} key={skill}>- {skill}</li>
+                            <li className={"md:text-2xl text-xl py-1"} key={skill}>- {skill}</li>
                         ))}
                     </ul>
                 </Grid>
@@ -45,13 +45,13 @@ function SkillsSection() {
                     <h2 className={"title-skills-section w-full text-center"}>{MY_TECHNOLOGIES_TITLE}:</h2>
                     <ul>
                         {MY_TECHNOLOGIES_LIST.map(skill => (
-                            <li className={"md:text-3xl text-2xl py-1"} key={skill}>- {skill}</li>
+                            <li className={"md:text-2xl text-xl py-1"} key={skill}>- {skill}</li>
                         ))}
                     </ul>
                     <h2 className={"title-skills-section mt-7"}>{MY_METHODOLOGIES_TITLE}:</h2>
                     <ul>
                         {MY_METHODOLOGIES_LIST.map(skill => (
-                            <li className={"md:text-3xl text-2xl py-1"} key={skill}>- {skill}</li>
+                            <li className={"md:text-2xl text-xl py-1"} key={skill}>- {skill}</li>
                         ))}
                     </ul>
                 </Grid>

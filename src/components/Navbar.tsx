@@ -11,7 +11,7 @@ function Navbar() {
 
     return (
         <nav className={"flex w-full p-5 justify-between shadow-xl bg-white"}>
-            <h1 className={"text-5xl font-extrabold"}>Matej.</h1>
+            <h1 className={"text-4xl font-extrabold"}>Matej.</h1>
                 <Drawer
                     anchor={"top"}
                     open={isOpenDrawer}
@@ -37,7 +37,7 @@ function Navbar() {
                         <Link smooth={true} className={"link-navbar"} to="sectionSkills">Skills</Link>
                     </li>
                     <li>
-                        <Link smooth={true} className={"text-3xl hover:cursor-pointer font-bold bg-secondary-color hover:bg-cyan-900 text-primary-color p-2 rounded-lg"} to="sectionContactMe">Contact</Link>
+                        <Link smooth={true} className={"text-2xl hover:cursor-pointer font-bold bg-secondary-color hover:bg-cyan-900 text-primary-color p-2 rounded-lg"} to="sectionContactMe">Contact</Link>
                     </li>
                 </ul>
         </nav>

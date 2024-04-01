@@ -13,11 +13,11 @@
 
 @layer components {
     .link-navbar {
-        @apply text-3xl font-bold text-gray-500 hover:cursor-pointer hover:text-black
+        @apply text-2xl font-bold text-gray-500 hover:cursor-pointer hover:text-black
     }
 
     .link-navbar-drawer {
-        @apply px-6 py-3 text-2xl font-bold text-gray-500
+        @apply px-6 py-3 text-xl font-bold text-gray-500
     }
 
     .list-aboutme-values {
@@ -25,15 +25,15 @@
     }
 
     .button-aboutme-action {
-        @apply bg-secondary-color text-primary-color p-2 rounded-md text-2xl font-bold mx-auto w-[250px] block text-center hover:bg-cyan-600 hover:cursor-pointer
+        @apply bg-secondary-color text-primary-color p-1 rounded-md text-xl font-bold mx-auto w-[250px] block text-center hover:bg-cyan-600 hover:cursor-pointer
     }
 
     .title-section {
-        @apply text-center mt-6 mb-10 text-4xl sm:text-6xl font-bold uppercase text-primary-color mx-4
+        @apply text-center mt-6 mb-10 text-3xl sm:text-5xl font-bold uppercase text-primary-color mx-4
     }
 
     .title-skills-section {
-        @apply md:text-4xl text-center font-bold mb-6 max-w-[450px] mx-auto text-3xl my-6
+        @apply md:text-3xl text-center font-bold mb-6 max-w-[450px] mx-auto text-2xl my-6
     }
 
     .input-contact-section {
@@ -41,7 +41,7 @@
     }
 
     .label-contact-section {
-        @apply block text-2xl sm:text-4xl font-bold text-primary-color mt-3 mb-1
+        @apply block text-2xl sm:text-3xl font-bold text-primary-color mt-3 mb-1
     }
 }
 
