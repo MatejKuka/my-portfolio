@@ -7,25 +7,26 @@ const MY_METHODOLOGIES_TITLE = "Additional skills";
 
 const MY_SKILLS_LIST = [
     "React.js, Next.js",
-    "Node.js, Express.js",
+    "Express.js, Nest.js",
     "TypeScript",
     "Tailwind, SASS",
-    "GraphQL + Apollo",
+    "GraphQL",
+    "Python",
     "HTML5, CSS, JS",
 ]
 const MY_TECHNOLOGIES_LIST = [
-    "Git, Github (version control)",
-    "Testing / e2e testing",
-    "DevOps, Github Actions, Jenkins",
-    "Firebase",
-    "Docker, Kubernetes"
+    "Git, Github (version control systems)",
+    "Firebase, Supabase",
+    "Docker, Kubernetes",
+    "MongoDB, MySQL, PostgreSQL",
 ]
 
 const MY_METHODOLOGIES_LIST = [
-    "SCRUM (Agile), Test-Driven Development, Extreme Programming",
+    "SCRUM, Test-Driven Development, Extreme Programming",
     "Figma",
     "Vue.js, .NET, C#, Java",
-    "MongoDB, MySQL, PostgreSQL"
+    "DevOps, Github Actions, Jenkins",
+    "Testing + e2e testing",
 ]
 
 function SkillsSection() {
